@@ -1,0 +1,94 @@
+.main {
+  height: 30rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+
+.logo {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+}
+
+.main-input {
+  width: 50rem;
+  text-transform: uppercase;
+  font-size: 3rem;
+  padding: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
+  border: 1px solid #ffe066;
+  background-color: #e9fac8;
+  color: #ffd43b;
+  outline: none;
+}
+
+.main-input::placeholder {
+  color: #ffd43b;
+}
+
+.toget {
+  font-size: 3rem;
+  margin-right: 1rem;
+  padding: 1rem;
+  border: 1px solid #ffe066;
+  color: #ffd43b;
+  background-color: #e9fac8;
+  outline: none;
+}
+
+.toconvert {
+  font-size: 3rem;
+  padding: 1rem;
+  border: 1px solid #ffe066;
+  color: #ffd43b;
+  background-color: #e9fac8;
+  outline: none;
+}
+
+.output {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+footer p {
+  font-size: 3rem;
+  margin-top: 30rem;
+  margin-bottom: 3rem;
+  color: #ffd43b;
+}
+
+.images {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (max-width: 50em) {
+  .main input {
+    display: block;
+    width: 30rem;
+  }
+
+  .main {
+    /* padding-left: 5rem; */
+  }
+
+  .logo {
+    width: 40rem;
+    height: 40rem;
+  }
+
+  footer p {
+    font-size: 2rem;
+  }
+}
